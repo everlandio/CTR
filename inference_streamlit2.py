@@ -36,7 +36,7 @@ def adapt_DenseNet169() -> Model:
     outputs = layers.Dense(1, name="pred", activation='sigmoid')(x)
 
     model = Model(inputs,outputs,name="DenseNet169_over")
-    model.load_weights('./DenseNet169_over_sig.h5')
+#     model.load_weights('./DenseNet169_over_sig.h5')
 
     return model
 
