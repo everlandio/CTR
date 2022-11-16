@@ -17,3 +17,4 @@ tensorboard
 tensorflow-addons
 tensorflow-estimator
 tf-keras-vis
+tensorflow
